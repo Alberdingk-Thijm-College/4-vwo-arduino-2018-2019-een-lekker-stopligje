@@ -4,18 +4,19 @@ int ToestandsKnop = 13;
 
 void setup() {
   // put your setup code here, to run once:
-  // kruispunt 1
+  // weg 1
   pinMode(2, OUTPUT); //rood
   pinMode(3, OUTPUT); //groen
-  // kruispunt 2
+  // weg 2
   pinMode(4, OUTPUT); //rood
   pinMode(5, OUTPUT); //groen
-  // kruispunt 3
+  // weg 3
   pinMode(6, OUTPUT); //rood
   pinMode(7, OUTPUT); //groen
-  // kruispunt 4
+  // weg 4
   pinMode(8, OUTPUT); //rood
   pinMode(9, OUTPUT); //groen
+  //voetgangerspad
   pinMode(10, OUTPUT); //voetganger rood
   pinMode(11, OUTPUT); //voetganger groen
   
@@ -25,20 +26,20 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   
-  //1 op groen rest op rood
-  digitalWrite(2, LOW);
+  //weg 1 op groen de rest op rood
+  digitalWrite(2, LOW);       //groen
   digitalWrite(3, HIGH);
   
-  digitalWrite(4, HIGH);
+  digitalWrite(4, HIGH);      //rood
   digitalWrite(5, LOW);
   
-  digitalWrite(6, HIGH);
+  digitalWrite(6, HIGH);      //rood
   digitalWrite(7, LOW);
   
-  digitalWrite(8, HIGH);
+  digitalWrite(8, HIGH);       //rood
   digitalWrite(9, LOW);
 
-  digitalWrite(10, HIGH); 
+  digitalWrite(10, HIGH);      //rood
   digitalWrite(11, LOW); 
 
   ToestandsKnop = digitalRead(KnopPin);
