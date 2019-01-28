@@ -27,213 +27,197 @@ void loop() {
   // put your main code here, to run repeatedly:
   
   //weg 1 op groen de rest op rood
-  digitalWrite(2, LOW);       //weg 1 groen
+  digitalWrite(2, LOW);       //groen
   digitalWrite(3, HIGH);
   
-  digitalWrite(4, HIGH);      //weg 2 rood
+  digitalWrite(4, HIGH);      //rood
   digitalWrite(5, LOW);
   
-  digitalWrite(6, HIGH);      //weg 3 rood
+  digitalWrite(6, HIGH);      //rood
   digitalWrite(7, LOW);
   
-  digitalWrite(8, HIGH);       //weg 4 rood
+  digitalWrite(8, HIGH);       //rood
   digitalWrite(9, LOW);
 
-  digitalWrite(10, HIGH);      //voetgangerspad rood
+  digitalWrite(10, HIGH);      //rood
   digitalWrite(11, LOW); 
-  
-//als knop aanstaat dan moet het voetgangerspad op groen en de rest op rood.
+
   ToestandsKnop = digitalRead(KnopPin);
   if (ToestandsKnop == HIGH) {
-    digitalWrite(2, HIGH);       //weg 1 rood
+    digitalWrite(2, HIGH); 
     digitalWrite(3, LOW); 
-    
-    digitalWrite(4, HIGH);       //weg 2 rood
+    digitalWrite(4, HIGH); 
     digitalWrite(5, LOW); 
-    
-    digitalWrite(6, HIGH);       //weg 3 rood
+    digitalWrite(6, HIGH); 
     digitalWrite(7, LOW); 
-    
-    digitalWrite(8, HIGH);       //weg 4 rood
+    digitalWrite(8, HIGH); 
     digitalWrite(9, LOW); 
-    
-    digitalWrite(10, LOW);       //voetgangers groen
+    digitalWrite(10, LOW); 
     digitalWrite(11, HIGH); 
   delay(5000);
   } 
-//als de knop niet is ingedrukt blijft het voetgangerslicht op rood staan.
+
   else { 
-   digitalWrite(2, LOW);        //weg 1 op groen
+   digitalWrite(2, LOW);
   digitalWrite(3, HIGH);
   
-  digitalWrite(4, HIGH);        //weg 2 op rood
+  digitalWrite(4, HIGH);
   digitalWrite(5, LOW);
   
-  digitalWrite(6, HIGH);        //weg 3 op rood
+  digitalWrite(6, HIGH);
   digitalWrite(7, LOW);
   
-  digitalWrite(8, HIGH);        //weg 4 op rood
+  digitalWrite(8, HIGH);
   digitalWrite(9, LOW);
 
-  digitalWrite(10, HIGH);         //voetgangerspad op rood
+  digitalWrite(10, HIGH); 
   digitalWrite(11, LOW); 
   } 
   
   delay(1000);
   
-  //weg2 op groen rest op rood
-  digitalWrite(2, HIGH);        //weg 1 op rood
+  //2 op groen rest op rood
+  digitalWrite(2, HIGH);
   digitalWrite(3, LOW);
   
-  digitalWrite(4, LOW);        //weg 2 op rood
+  digitalWrite(4, LOW);
   digitalWrite(5, HIGH);
   
-  digitalWrite(6, HIGH);        //weg 3 op rood
+  digitalWrite(6, HIGH);
   digitalWrite(7, LOW);
   
-  digitalWrite(8, HIGH);        //weg 4 op rood
+  digitalWrite(8, HIGH);
   digitalWrite(9, LOW);
-
-  digitalWrite(10,HIGH);        //voetgangerspad op rood
-  digitalWrite(11,LOW);
-  
- //als knop aanstaat dan moet het voetgangerspad op groen en de rest op rood.
+ 
   ToestandsKnop = digitalRead(KnopPin);
   if (ToestandsKnop == HIGH) {
-    digitalWrite(2, HIGH);         //weg 1 op rood
+    digitalWrite(2, HIGH); 
     digitalWrite(3, LOW); 
-    digitalWrite(4, HIGH);         //weg 2 op rood
+    digitalWrite(4, HIGH); 
     digitalWrite(5, LOW); 
-    digitalWrite(6, HIGH);         //weg 3 op rood
+    digitalWrite(6, HIGH); 
     digitalWrite(7, LOW); 
-    digitalWrite(8, HIGH);         //weg 4 op rood
+    digitalWrite(8, HIGH); 
     digitalWrite(9, LOW); 
-    digitalWrite(10, LOW);         //voetgangerspad op rood
+    digitalWrite(10, LOW); 
     digitalWrite(11, HIGH); 
   delay(5000); 
   } 
-//als de knop niet is ingedrukt blijft het voetgangerslicht op rood staan.
+
   else { 
-   digitalWrite(2, HIGH);        //weg 1 op rood
+   digitalWrite(2, HIGH);
   digitalWrite(3, LOW);
   
-  digitalWrite(4, LOW);        //weg 2 op rood
+  digitalWrite(4, LOW);
   digitalWrite(5, HIGH);
   
-  digitalWrite(6, HIGH);        //weg 3 op rood
+  digitalWrite(6, HIGH);
   digitalWrite(7, LOW);
   
-  digitalWrite(8, HIGH);        //weg 4 op rood
+  digitalWrite(8, HIGH);
   digitalWrite(9, LOW);
 
-  digitalWrite(10, HIGH);         //voetgangerspad op rood
+  digitalWrite(10, HIGH); 
   digitalWrite(11, LOW); 
   } 
    
   delay(1000);
   
-  //weg 3 op groen de rest op rood
-  digitalWrite(2, HIGH);        //weg 1 op rood
+  //3 op groen rest op rood
+  digitalWrite(2, HIGH);
   digitalWrite(3, LOW);
   
-  digitalWrite(4, HIGH);        //weg 2 op rood
+  digitalWrite(4, HIGH);
   digitalWrite(5, LOW);
   
-  digitalWrite(6, LOW);        //weg 3 op rood
+  digitalWrite(6, LOW);
   digitalWrite(7, HIGH);
   
-  digitalWrite(8, HIGH);        //weg 4 op rood
+  digitalWrite(8, HIGH);
   digitalWrite(9, LOW);
   
-  digitalWrite(10, HIGH);        //voetgangerspad op rood
+  digitalWrite(10, HIGH);
   digitalWrite(11, LOW);
   
-  //als knop aanstaat dan moet het voetgangerspad op groen en de rest op rood.
   ToestandsKnop = digitalRead(KnopPin);
   if (ToestandsKnop == HIGH) {
-    digitalWrite(2, HIGH);         //weg 1 op rood
+    digitalWrite(2, HIGH); 
     digitalWrite(3, LOW); 
-    digitalWrite(4, HIGH);         //weg 2 op rood
+    digitalWrite(4, HIGH); 
     digitalWrite(5, LOW); 
-    digitalWrite(6, HIGH);         //weg 3 op rood
+    digitalWrite(6, HIGH); 
     digitalWrite(7, LOW); 
-    digitalWrite(8, HIGH);         //weg 4 op rood
+    digitalWrite(8, HIGH); 
     digitalWrite(9, LOW); 
-    digitalWrite(10, LOW);         //voetgangerspad op rood
+    digitalWrite(10, LOW); 
     digitalWrite(11, HIGH); 
  delay(5000); 
   } 
-//als de knop niet is ingedrukt blijft het voetgangerslicht op rood staan.
+
   else {
-  digitalWrite(2, HIGH);        //weg 1 op rood
+  digitalWrite(2, HIGH);
   digitalWrite(3, LOW);
   
-  digitalWrite(4, HIGH);        //weg 2 op rood
+  digitalWrite(4, HIGH);
   digitalWrite(5, LOW);
   
-  digitalWrite(6, LOW);        //weg 3 op groen
+  digitalWrite(6, LOW);
   digitalWrite(7, HIGH);
   
-  digitalWrite(8, HIGH);        //weg 4 op rood
+  digitalWrite(8, HIGH);
   digitalWrite(9, LOW);
   
-  digitalWrite(10, HIGH);        //voetgangerspad op rood
+  digitalWrite(10, HIGH);
   digitalWrite(11, LOW);
   }
   delay(1000);
   
-  //weg 4 op groen de rest op rood
-  digitalWrite(2, HIGH);        //weg 1 op rood
+  //4 op groen rest op rood
+  digitalWrite(2, HIGH);
   digitalWrite(3, LOW);
   
-  digitalWrite(4, HIGH);        //weg 2 op rood
+  digitalWrite(4, HIGH);
   digitalWrite(5, LOW);
   
-  digitalWrite(6, HIGH);        //weg 3 op rood
+  digitalWrite(6, HIGH);
   digitalWrite(7, LOW);
   
-  digitalWrite(8, LOW);        //weg 4 op groen
+  digitalWrite(8, LOW);
   digitalWrite(9, HIGH);
   
-  digitalWrite(10, HIGH);        //voetgangerspad op rood
+  digitalWrite(10, HIGH);
   digitalWrite(11, LOW);
   
-  //als knop aanstaat dan moet het voetgangerspad op groen en de rest op rood.
   ToestandsKnop = digitalRead(KnopPin);
   if (ToestandsKnop == HIGH) {
-    
-    digitalWrite(2, HIGH);         //weg 1 op rood
+    digitalWrite(2, HIGH); 
     digitalWrite(3, LOW); 
-    
-    digitalWrite(4, HIGH);         //weg 2 op rood
+    digitalWrite(4, HIGH); 
     digitalWrite(5, LOW); 
-    
-    digitalWrite(6, HIGH);         //weg 3 op rood
+    digitalWrite(6, HIGH); 
     digitalWrite(7, LOW); 
-    
-    digitalWrite(8, HIGH);         //weg 4 op rood
+    digitalWrite(8, HIGH); 
     digitalWrite(9, LOW); 
-    
-    digitalWrite(10, LOW);         //voetgangerspad op groen
+    digitalWrite(10, LOW); 
     digitalWrite(11, HIGH); 
   delay(5000);
   } 
-//als de knop niet is ingedrukt blijft het voetgangerslicht op rood staan.
+
   else {
-  digitalWrite(2, HIGH);        //weg 1 op rood
+  digitalWrite(2, HIGH);
   digitalWrite(3, LOW);
   
-  digitalWrite(4, HIGH);        //weg 2 op rood
+  digitalWrite(4, HIGH);
   digitalWrite(5, LOW);
   
-  digitalWrite(6, HIGH);       //weg 3 op rood
+  digitalWrite(6, HIGH);
   digitalWrite(7, LOW);
   
-  digitalWrite(8, LOW);        //weg 4 op groen
+  digitalWrite(8, LOW);
   digitalWrite(9, HIGH);
   
-  digitalWrite(10, HIGH);       //voetgangerspad op rood
+  digitalWrite(10, HIGH);
   digitalWrite(11, LOW);
   }
-  delay(5000); 
+  delay(1000); 
 }
