@@ -79,7 +79,7 @@ void loop() {
   digitalWrite(11, LOW); 
   } 
   
-  delay(1000);
+  delay(5000);
   
   //weg2 op groen rest op rood
   digitalWrite(2, HIGH);        //weg 1 op rood
@@ -130,7 +130,7 @@ void loop() {
   digitalWrite(11, LOW); 
   } 
    
-  delay(1000);
+  delay(5000);
   
   //weg 3 op groen de rest op rood
   digitalWrite(2, HIGH);        //weg 1 op rood
@@ -180,7 +180,7 @@ void loop() {
   digitalWrite(10, HIGH);        //voetgangerspad op rood
   digitalWrite(11, LOW);
   }
-  delay(1000);
+  delay(5000);
   
   //weg 4 op groen de rest op rood
   digitalWrite(2, HIGH);        //weg 1 op rood
