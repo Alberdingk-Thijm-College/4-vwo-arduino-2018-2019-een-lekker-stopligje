@@ -1,3 +1,4 @@
+int Speaker = 10;
 void setup() {
   // weg 1
   pinMode(2, OUTPUT); //het rode licht
@@ -29,7 +30,15 @@ void loop() {
   digitalWrite(8, HIGH);        //rood
   digitalWrite(9, LOW);
   
-  delay(5000);
+  delay(4000);                  // de speaker gaat aan en uit om het duidelijk te maken dat het stoplicht op rood gaat
+  tone(Speaker, 400); 
+  delay(250);
+  noTone(speaker);
+  delay(250);
+  tone(Speaker, 400); 
+  delay(250);
+  noTone(speaker);
+  delay(250);
   
   //2 op groen rest op rood
   digitalWrite(2, HIGH);        //rood
@@ -44,7 +53,15 @@ void loop() {
   digitalWrite(8, HIGH);        //rood
   digitalWrite(9, LOW);
   
-  delay(5000);
+  delay(4000);                  // de speaker gaat aan en uit om het duidelijk te maken dat het stoplicht op rood gaat
+  tone(Speaker, 400); 
+  delay(250);
+  noTone(speaker);
+  delay(250);
+  tone(Speaker, 400); 
+  delay(250);
+  noTone(speaker);
+  delay(250);
   
   //3 op groen rest op rood
   digitalWrite(2, HIGH);        //rood
@@ -59,7 +76,15 @@ void loop() {
   digitalWrite(8, HIGH);        //rood
   digitalWrite(9, LOW);
   
-  delay(5000);
+  delay(4000);                  // de speaker gaat aan en uit om het duidelijk te maken dat het stoplicht op rood gaat
+  tone(Speaker, 400); 
+  delay(250);
+  noTone(speaker);
+  delay(250);
+  tone(Speaker, 400); 
+  delay(250);
+  noTone(speaker);
+  delay(250);
   
   //4 op groen rest op rood
   digitalWrite(2, HIGH);        //rood
@@ -74,5 +99,13 @@ void loop() {
   digitalWrite(8, LOW);         //groen
   digitalWrite(9, HIGH);
   
-  delay(5000);
+  delay(4000);                  // de speaker gaat aan en uit om het duidelijk te maken dat het stoplicht op rood gaat
+  tone(Speaker, 400); 
+  delay(250);
+  noTone(speaker);
+  delay(250);
+  tone(Speaker, 400); 
+  delay(250);
+  noTone(speaker);
+  delay(250);
 }
