@@ -49,25 +49,11 @@ void loop() {
     digitalWrite(8, HIGH); //weg 4 op rood 
     digitalWrite(9, LOW); 
     
-  delay(5000);
-  } 
-//als je de knop weer los laat, wordt lampje 1 groen en gaat de rest op rood. 
-  else { 
-   digitalWrite(2, LOW);  //weg 1 op groen 
-  digitalWrite(3, HIGH);
   
-  digitalWrite(4, HIGH);  //weg 2 op rood
-  digitalWrite(5, LOW);
-  
-  digitalWrite(6, HIGH);  //weg 3 op rood 
-  digitalWrite(7, LOW);
-  
-  digitalWrite(8, HIGH);  //weg 4 op rood 
-  digitalWrite(9, LOW);
   }
 // als er op knop 2 gedrukt wordt, gaat alles op rood behalve lampje 2. 
   ToestandsKnop2 = digitalRead(KnopPin); 
-  if (ToestandsKnop2 == HIGH) {
+  else if (ToestandsKnop2 == HIGH) {
     digitalWrite(2,HIGH); //weg 1 op rood 
     digitalWrite(3, LOW); 
     digitalWrite(4, HIGH); //weg 2 op rood
@@ -81,11 +67,11 @@ void loop() {
   }
   //als je de knop weer los laat, wordt lampje 2 groen en gaat de rest op rood. 
   else { 
-   digitalWrite(2, HIGH);  //weg 1 op rood 
-  digitalWrite(3, LOW);
+   digitalWrite(2, LOW);  //weg 1 op rood 
+  digitalWrite(3, HIGH);
   
-  digitalWrite(4, LOW);  //weg 2 op groen
-  digitalWrite(5, HIGH);
+  digitalWrite(4, HIGH);  //weg 2 op groen
+  digitalWrite(5, LOW);
   
   digitalWrite(6, HIGH);  //weg 3 op rood 
   digitalWrite(7, LOW);
@@ -122,25 +108,11 @@ void loop() {
     digitalWrite(8, HIGH); //weg 4 op rood 
     digitalWrite(9, LOW); 
     
-  delay(5000);
-  } 
-//als je de knop weer los laat, wordt lampje 1 groen en gaat de rest op rood. 
-  else { 
-   digitalWrite(2, LOW);  //weg 1 op groen 
-  digitalWrite(3, HIGH);
   
-  digitalWrite(4, HIGH);  //weg 2 op rood
-  digitalWrite(5, LOW);
-  
-  digitalWrite(6, HIGH);  //weg 3 op rood 
-  digitalWrite(7, LOW);
-  
-  digitalWrite(8, HIGH);  //weg 4 op rood 
-  digitalWrite(9, LOW);
   }
 // als er op knop 2 gedrukt wordt, gaat alles op rood behalve lampje 2. 
   ToestandsKnop2 = digitalRead(KnopPin); 
-  if (ToestandsKnop2 == HIGH) {
+  else if (ToestandsKnop2 == HIGH) {
     digitalWrite(2,HIGH); //weg 1 op rood 
     digitalWrite(3, LOW); 
     digitalWrite(4, HIGH); //weg 2 op rood
@@ -194,25 +166,11 @@ void loop() {
     digitalWrite(8, HIGH); //weg 4 op rood 
     digitalWrite(9, LOW); 
     
-  delay(5000);
-  } 
-//als je de knop weer los laat, wordt lampje 1 groen en gaat de rest op rood. 
-  else { 
-   digitalWrite(2, LOW);  //weg 1 op groen 
-  digitalWrite(3, HIGH);
   
-  digitalWrite(4, HIGH);  //weg 2 op rood
-  digitalWrite(5, LOW);
-  
-  digitalWrite(6, HIGH);  //weg 3 op rood 
-  digitalWrite(7, LOW);
-  
-  digitalWrite(8, HIGH);  //weg 4 op rood 
-  digitalWrite(9, LOW);
   }
 // als er op knop 2 gedrukt wordt, gaat alles op rood behalve lampje 2. 
   ToestandsKnop2 = digitalRead(KnopPin); 
-  if (ToestandsKnop2 == HIGH) {
+  else if (ToestandsKnop2 == HIGH) {
     digitalWrite(2,HIGH); //weg 1 op rood 
     digitalWrite(3, LOW); 
     digitalWrite(4, HIGH); //weg 2 op rood
@@ -229,11 +187,11 @@ void loop() {
    digitalWrite(2, HIGH);  //weg 1 op rood 
   digitalWrite(3, LOW);
   
-  digitalWrite(4, LOW);  //weg 2 op groen
-  digitalWrite(5, HIGH);
+  digitalWrite(4, HIGH);  //weg 2 op groen
+  digitalWrite(5, LOW);
   
-  digitalWrite(6, HIGH);  //weg 3 op rood 
-  digitalWrite(7, LOW);
+  digitalWrite(6, LOW);  //weg 3 op rood 
+  digitalWrite(7, HIGH);
   
   digitalWrite(8, HIGH);  //weg 4 op rood 
   digitalWrite(9, LOW);
@@ -267,25 +225,11 @@ void loop() {
     digitalWrite(8, HIGH); //weg 4 op rood 
     digitalWrite(9, LOW); 
     
-  delay(5000);
-  }
-//als je de knop weer los laat, wordt lampje 1 groen en gaat de rest op rood. 
-  else { 
-   digitalWrite(2, LOW);  //weg 1 op groen 
-  digitalWrite(3, HIGH);
   
-  digitalWrite(4, HIGH);  //weg 2 op rood
-  digitalWrite(5, LOW);
-  
-  digitalWrite(6, HIGH);  //weg 3 op rood 
-  digitalWrite(7, LOW);
-  
-  digitalWrite(8, HIGH);  //weg 4 op rood 
-  digitalWrite(9, LOW);
   }
 // als er op knop 2 gedrukt wordt, gaat alles op rood behalve lampje 2. 
   ToestandsKnop2 = digitalRead(KnopPin); 
-  if (ToestandsKnop2 == HIGH) {
+ else if (ToestandsKnop2 == HIGH) {
     digitalWrite(2,HIGH); //weg 1 op rood 
     digitalWrite(3, LOW); 
     digitalWrite(4, HIGH); //weg 2 op rood
@@ -302,14 +246,14 @@ void loop() {
    digitalWrite(2, HIGH);  //weg 1 op rood 
   digitalWrite(3, LOW);
   
-  digitalWrite(4, LOW);  //weg 2 op groen
-  digitalWrite(5, HIGH);
+  digitalWrite(4, HIGH);  //weg 2 op groen
+  digitalWrite(5, LOW);
   
   digitalWrite(6, HIGH);  //weg 3 op rood 
   digitalWrite(7, LOW);
   
-  digitalWrite(8, HIGH);  //weg 4 op rood 
-  digitalWrite(9, LOW);
+  digitalWrite(8, LOW);  //weg 4 op rood 
+  digitalWrite(9, HIGH);
 
   }
  

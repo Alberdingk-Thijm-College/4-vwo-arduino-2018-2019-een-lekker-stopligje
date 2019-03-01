@@ -33,11 +33,11 @@ void loop() {
   delay(4000);                  // de speaker gaat aan en uit om het duidelijk te maken dat het stoplicht op rood gaat
   tone(Speaker, 400); 
   delay(250);
-  noTone(speaker);
+  noTone(Speaker);
   delay(250);
   tone(Speaker, 400); 
   delay(250);
-  noTone(speaker);
+  noTone(Speaker);
   delay(250);
   
   //2 op groen rest op rood
@@ -56,11 +56,11 @@ void loop() {
   delay(4000);                  // de speaker gaat aan en uit om het duidelijk te maken dat het stoplicht op rood gaat
   tone(Speaker, 400); 
   delay(250);
-  noTone(speaker);
+  noTone(Speaker);
   delay(250);
   tone(Speaker, 400); 
   delay(250);
-  noTone(speaker);
+  noTone(Speaker);
   delay(250);
   
   //3 op groen rest op rood
@@ -79,11 +79,11 @@ void loop() {
   delay(4000);                  // de speaker gaat aan en uit om het duidelijk te maken dat het stoplicht op rood gaat
   tone(Speaker, 400); 
   delay(250);
-  noTone(speaker);
+  noTone(Speaker);
   delay(250);
   tone(Speaker, 400); 
   delay(250);
-  noTone(speaker);
+  noTone(Speaker);
   delay(250);
   
   //4 op groen rest op rood
@@ -102,10 +102,10 @@ void loop() {
   delay(4000);                  // de speaker gaat aan en uit om het duidelijk te maken dat het stoplicht op rood gaat
   tone(Speaker, 400); 
   delay(250);
-  noTone(speaker);
+  noTone(Speaker);
   delay(250);
   tone(Speaker, 400); 
   delay(250);
-  noTone(speaker);
+  noTone(Speaker);
   delay(250);
 }
